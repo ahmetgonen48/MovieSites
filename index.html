@@ -1,0 +1,1636 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+</head>
+<body>
+    
+<div class="container">
+    <div class="banner" id="banner">
+        <video id="video" class="banner"  poster="img/l-movie4.jpg" style="pointer-events:none ;">
+            <source src="img/w-trailer.mp4" type="video/mp4" />
+        </video>
+        <div class="banner__contents">
+            <h1 class="banner__title">WEDNESDAY</h1>
+            <div class="banner__buttons">
+                <button class="btn  bu text-center" id='btnPlayPause' accesskey="P" onclick='playPauseVideo();'><b> WATCH </b><img src="img/play.svg" alt=""><b> NOW</b></button>
+            </div>
+            <div class="banner__infos d-flex mt-1">
+                <img class="" src="img/Star 2.svg" alt="">
+                <img src="img/Star 2.svg" alt="">
+                <img src="img/Star 2.svg" alt="">
+                <img src="img/Star 2.svg" alt="">
+                <img src="img/Star 2.svg" alt="">
+                
+                <p class="ms-1 banner__date mt-3">2016</p>
+                <i class="fa-regular fa-clock ms-3 mt-3"></i>
+                <p class="banner__time ms-1 mt-3">1sa 4dk</p>
+
+            </div>
+            <div class="banner__desc">
+                Berbat bir şaka yüzünden okuldan atılan Wednesday,anne ve babasının birbirlerine aşık olduğu yatılı bir okul olan Nevermore Akademisine gönderilir.
+            </div>
+            <div class="add-list">
+
+                <a class="text-white d-flex text-decoration-none" href="#"><img src="img/Vector.svg" alt=""><p class="d-flex ms-3">Add to my List</p></a>
+            </div>
+
+        </div>
+        <div class="banner__foto d-flex justify-content-center">
+            <img class="banner__img me-2" src="img/sc2.jpg" alt="">
+            <img class="banner__img me-2" src="img/sc3.jpg" alt="">
+            <img class="banner__img me-2" src="img/sc4.jpg" alt="">
+            <img class="banner__img me-2" src="img/sc5.jpg" alt="">
+            <img class="banner__img me-2" src="img/sc6.jpg" alt="">
+            <img class="banner__img me-2" src="img/sc1.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+
+    <h2 class="text-white">Popüler Filmler</h2>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide film-card">
+                <div class="img-fluid film-card-hov ">
+
+                    <div class="card col resim ">
+                        
+                        <div class="info-card">
+                            <div class="film-info ">
+                                <h5 class="text-white film-name">Wednesday</h5>
+                                <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                                <p class="fw-light text-white">+ 18</p>
+                                <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                                <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                            </div>
+                            <div class="content">
+                                <div class="content-header d-flex justify-content-between">
+                                    <img style="width: 42px;" src="img/imdb.svg" alt="">
+                                    <p  class="content_date text-white mt-3">2022</p>
+                                    <p  class="text-white content_raiting mt-3">8.5</p>
+                                </div>
+                                <div class="content-main">
+                                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                                </div>
+                                <div class="content-footer d-flex justify-content-between">
+                                    <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                                    <div id="myBtn" class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                                    <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                                </div>
+                            
+
+                            </div>
+                            
+
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+            <div class="card col resim1">
+                
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card">
+            <div class="img-fluid film-card-hov">
+
+            <div class="card col resim2 ">
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card"> 
+            <div class="img-fluid film-card-hov">
+
+        <div class="card col resim3 ">
+            <div class="info-card">
+                <div class="film-info ">
+    
+                    <h5 class="text-white film-name">Wednesday</h5>
+                    <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                    <p class="fw-light text-white">+ 18</p>
+                    <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                    <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                </div>
+                <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim4 ">
+              <div class="info-card">
+                  <div class="film-info ">
+      
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim1 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim2 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim3 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-button-next text-white"></div>
+    <div class="swiper-button-prev text-white"></div>
+    </div>
+
+    
+    {% comment %} asd {% endcomment %}
+   <div class="">
+    <h2 class="text-white">Ödüllü Filmler</h2>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide film-card">
+                <div class="img-fluid film-card-hov ">
+
+                    <div class="card col resim ">
+                        
+                        <div class="info-card">
+                            <div class="film-info ">
+                                <h5 class="text-white film-name">Wednesday</h5>
+                                <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                                <p class="fw-light text-white">+ 18</p>
+                                <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                                <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                            </div>
+                            <div class="content">
+                                <div class="content-header d-flex justify-content-between">
+                                    <img style="width: 42px;" src="img/imdb.svg" alt="">
+                                    <p  class="content_date text-white mt-3">2022</p>
+                                    <p  class="text-white content_raiting mt-3">8.5</p>
+                                </div>
+                                <div class="content-main">
+                                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                                </div>
+                                <div class="content-footer d-flex justify-content-between">
+                                    <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                                    <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                                    <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                                </div>
+                            
+
+                            </div>
+                            
+
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+            <div class="card col resim1">
+                
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card">
+            <div class="img-fluid film-card-hov">
+
+            <div class="card col resim2 ">
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card"> 
+            <div class="img-fluid film-card-hov">
+
+        <div class="card col resim3 ">
+            <div class="info-card">
+                <div class="film-info ">
+    
+                    <h5 class="text-white film-name">Wednesday</h5>
+                    <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                    <p class="fw-light text-white">+ 18</p>
+                    <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                    <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                </div>
+                <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim4 ">
+              <div class="info-card">
+                  <div class="film-info ">
+      
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim1 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim2 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim3 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-button-next text-white"></div>
+    <div class="swiper-button-prev text-white"></div>
+    </div>
+
+   </div>
+    {% comment %} asd {% endcomment %}
+   <div class="">
+    <h2 class="text-white">Ödüllü Filmler</h2>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide film-card">
+                <div class="img-fluid film-card-hov ">
+
+                    <div class="card col resim ">
+                        
+                        <div class="info-card">
+                            <div class="film-info ">
+                                <h5 class="text-white film-name">Wednesday</h5>
+                                <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                                <p class="fw-light text-white">+ 18</p>
+                                <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                                <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                            </div>
+                            <div class="content">
+                                <div class="content-header d-flex justify-content-between">
+                                    <img style="width: 42px;" src="img/imdb.svg" alt="">
+                                    <p  class="content_date text-white mt-3">2022</p>
+                                    <p  class="text-white content_raiting mt-3">8.5</p>
+                                </div>
+                                <div class="content-main">
+                                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                                </div>
+                                <div class="content-footer d-flex justify-content-between">
+                                    <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                                    <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                                    <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                                </div>
+                            
+
+                            </div>
+                            
+
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+            <div class="card col resim1">
+                
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card">
+            <div class="img-fluid film-card-hov">
+
+            <div class="card col resim2 ">
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card"> 
+            <div class="img-fluid film-card-hov">
+
+        <div class="card col resim3 ">
+            <div class="info-card">
+                <div class="film-info ">
+    
+                    <h5 class="text-white film-name">Wednesday</h5>
+                    <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                    <p class="fw-light text-white">+ 18</p>
+                    <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                    <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                </div>
+                <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim4 ">
+              <div class="info-card">
+                  <div class="film-info ">
+      
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim1 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim2 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim3 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-button-next text-white"></div>
+    <div class="swiper-button-prev text-white"></div>
+    </div>
+
+   </div>
+    {% comment %} asd {% endcomment %}
+   <div class="">
+    <h2 class="text-white">Ödüllü Filmler</h2>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide film-card">
+                <div class="img-fluid film-card-hov ">
+
+                    <div class="card col resim ">
+                        
+                        <div class="info-card">
+                            <div class="film-info ">
+                                <h5 class="text-white film-name">Wednesday</h5>
+                                <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                                <p class="fw-light text-white">+ 18</p>
+                                <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                                <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                            </div>
+                            <div class="content">
+                                <div class="content-header d-flex justify-content-between">
+                                    <img style="width: 42px;" src="img/imdb.svg" alt="">
+                                    <p  class="content_date text-white mt-3">2022</p>
+                                    <p  class="text-white content_raiting mt-3">8.5</p>
+                                </div>
+                                <div class="content-main">
+                                    <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                                </div>
+                                <div class="content-footer d-flex justify-content-between">
+                                    <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                                    <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                                    <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                                </div>
+                            
+
+                            </div>
+                            
+
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+            <div class="card col resim1">
+                
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card">
+            <div class="img-fluid film-card-hov">
+
+            <div class="card col resim2 ">
+                <div class="info-card">
+                    <div class="film-info ">
+        
+                        <h5 class="text-white film-name">Wednesday</h5>
+                        <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                        <p class="fw-light text-white">+ 18</p>
+                        <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                        <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                    </div>
+                    <div class="content">
+                        <div class="content-header d-flex justify-content-between">
+                            <img style="width: 42px;" src="img/imdb.svg" alt="">
+                            <p  class="content_date text-white mt-3">2022</p>
+                            <p  class="text-white content_raiting mt-3">8.5</p>
+                        </div>
+                        <div class="content-main">
+                            <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                        </div>
+                        <div class="content-footer d-flex justify-content-between">
+                            <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                            <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                            <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                        </div>
+                    
+
+                    </div>
+    
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide film-card"> 
+            <div class="img-fluid film-card-hov">
+
+        <div class="card col resim3 ">
+            <div class="info-card">
+                <div class="film-info ">
+    
+                    <h5 class="text-white film-name">Wednesday</h5>
+                    <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                    <p class="fw-light text-white">+ 18</p>
+                    <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                    <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                </div>
+                <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim4 ">
+              <div class="info-card">
+                  <div class="film-info ">
+      
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim1 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim2 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+      <div class="swiper-slide film-card">
+        <div class="img-fluid film-card-hov">
+
+          <div class="card col resim3 ">
+              
+              <div class="info-card">
+                  <div class="film-info ">
+                      <h5 class="text-white film-name">Wednesday</h5>
+                      <h6 class="fw-light text-white film-date">20 Nisan</h6>
+                      <p class="fw-light text-white">+ 18</p>
+                      <div class="text-white d-inline-flex lang text-center align-items-center d-flex justify-content-center" >TR</div>
+                      <div class="text-white d-inline-flex ms-2 lang text-center align-items-center d-flex justify-content-center">TR</div>
+                  </div>
+                  <div class="content">
+                    <div class="content-header d-flex justify-content-between">
+                        <img style="width: 42px;" src="img/imdb.svg" alt="">
+                        <p  class="content_date text-white mt-3">2022</p>
+                        <p  class="text-white content_raiting mt-3">8.5</p>
+                    </div>
+                    <div class="content-main">
+                        <p class="text-white text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dignissimos. Deleniti veritatis facere odio tempore error. Omnis, earum quae. Error quisquam vel officiis rem illum possimus perspiciatis corrupti vitae adipisci!</p>
+                    </div>
+                    <div class="content-footer d-flex justify-content-between">
+                        <div class="btn btn-dark btn-play"><i class="fa-solid fa-play"></i> Oynat</div>
+                        <div class="btn btn-dark btn-wiew"><i class="fa-sharp fa-solid fa-eye"></i></div>
+                        <div class="btn btn-dark btn-addFav"><i class="fa-regular fa-plus"></i></div>
+                    </div>
+                
+
+                </div>
+  
+              </div>
+              
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="swiper-button-next text-white"></div>
+    <div class="swiper-button-prev text-white"></div>
+    </div>
+
+   </div>
+
+</div>
+    
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Netflix</h2>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid p-0">
+          <div class="modalse">
+  
+              <div class="modalsw">
+                  <div class="modal-name">
+  
+                      <h1 class="text-white ">Wednesday</h1>
+      
+                      <h4 class="text-light ms-4"  >  date  |  category</h4>
+                  </div>
+                  <div class="modal-text">
+                      
+                      <p class=" text-white">açıkama: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem temporibus magnam fugiat in pariatur mollitia praesentium iure laborum neque tempore quae consequatur totam, dicta minima cupiditate hic,</p>
+                      <a class="modal-readMore" href="#">Daha Fazlası</a>
+                      <div class="d-flex">
+                        <p class="text-white mt-2">IMDB:<span class="text-warning ms-1">7.2</span> </p>
+                        <p class="text-white mt-2 ms-4">Süre: 49dk</p>
+                      </div>
+                      <div class="episodes">
+                          <p class="text-white">Episodes</p>
+                          <div class="swiper mySwiperModal">
+                              <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  
+                                  <div class="episode">
+                                      <p class="ep text-white">01</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">02</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">03</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">04</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">05</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">06</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">07</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">08</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                  <div class="episode">
+                                      <p class="ep text-white">09</p>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide opacity-0">a</div>
+                              </div>
+                              <div class="swiper-button-next text-white"></div>
+                              <div class="swiper-button-prev text-white"></div>
+                            </div>
+                       
+  
+                          <a class=" trailer" href="#">Trailer</a>
+                         
+  
+                          <a class="text-white add-fav" href="#"><span class="symbol" style="font-size: 30px;">+</span> ADD To Favorites</a>
+                          <a class="text-white watch" href="#"> <i class="fa-regular fa-circle-play"></i></a>
+                          
+                      </div>
+  
+                  </div>
+                  
+              </div>
+          </div>
+  
+      </div>
+      </div>
+      
+    </div>
+  
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+    <script>
+        player = document.getElementById('video');
+        btnPlayPause = document.getElementById('btnPlayPause');
+        player.addEventListener('play', function() {
+		changeButtonType(btnPlayPause, '<i style=font-size:75px; class="fa-regular fa-circle-pause fa-2xl"></i>');
+        }, false);
+    
+        player.addEventListener('pause', function() {
+            changeButtonType(btnPlayPause, 'WATCH <img src="img/play.svg" alt=""> NOW');
+        }, false);
+        
+        function playPauseVideo() {
+            if (player.paused || player.ended) {
+                changeButtonType(btnPlayPause, 'Pause');
+                player.play();
+            }
+            else {
+                changeButtonType(btnPlayPause, 'Play');
+                player.pause();
+            }
+        }
+        function changeButtonType(btn, value) {
+            btn.title     = value;
+            btn.innerHTML = value;
+        }
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            if(window.scrollY >= 100){
+                nav.classList.add('nav__black');
+            }else{
+                nav.classList.remove('nav__black')
+            }
+        })
+    </script>
+
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            1200: {
+                slidesPerView: 5,
+            },
+            992: {
+                slidesPerView: 4,
+            },
+            560: {
+                slidesPerView: 3,
+            },
+        }
+    });
+</script>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    
+    var swiper = new Swiper(".mySwiperModal", {
+      slidesPerView: 3,
+      spaceBetween: 5,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    
+    
+    </script>
+
+
+
+</body>
+</html>
+
+
